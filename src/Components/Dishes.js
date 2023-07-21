@@ -1,6 +1,6 @@
 
 const Dish = ({dish}) => {
-    const { title, category, price, img, desc } = dish;
+    const { title, price, img, desc } = dish;
 
     return(
         <div className="dish">
